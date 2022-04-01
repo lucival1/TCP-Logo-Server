@@ -20,9 +20,9 @@ of the `CommandStrategy` interface that defines its sub-classes should implement
 The reason for the Strategy pattern is do to the similarity of each command having just their behavior 
 being different from each other.
 
-To start the server simply type npm install on the terminal and follow with npm start. The Server has on environment 
-variable on PORT. If the user wishes to change from the default port, it should create a .env file and populate 
-with desired port. A .env.sample is also on the directory to show how is shouwld like. 
+To start the server simply type npm install on the terminal and follow with npm start. The Server has an environment 
+variable for the PORT. If the user wishes to change from the default Port, it should create a `.env` file and populate 
+with desired Port number. A `.env.sample` is also on the directory to show how is should be. 
 
 I have used telnet ([install telnet](https://support.code42.com/Incydr/Agent/Troubleshooting/Test_your_network_connection#Install_Telnet_on_Macintosh)) 
 to connect to the server. Once the server start and the TCP connection is made the user can send commands in 
